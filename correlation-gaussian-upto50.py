@@ -49,10 +49,6 @@ for j in range(10):
 	w[j] = token[1]
 	c[j] = token[2] 
 
-
-
-
-
 # Reading data of correlation point	
 summ1 = 0.0
 for k in range(2):
@@ -72,8 +68,7 @@ for k in range(2):
 	inte = inte + f(h,h1,a,b)
 	summ1 = summ1 + h*inte
 	print >> f4,q[k], 2*h*inte
-print >> f4, 2*summ1,'		', -22.8*summ1
-print >> f6,2*summ1,'		', -22.8*summ1
+print >> f4, summ1
 
 
 
